@@ -69,11 +69,9 @@ function playRound () {
 
  console.log(player1.name.length)
 
+ console.log(playGame(player1, player2, 5))
 
  module.exports.hands = hands;
  module.exports.player1 = player1;
  module.exports.player2 = player2;
  module.exports.playRound = playRound;
- 
- 
- 
