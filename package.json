@@ -1,0 +1,26 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "main": "rockPaperScissors.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaylorJosh/RPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaylorJosh/RPS/issues"
+  },
+  "homepage": "https://github.com/TaylorJosh/RPS#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
