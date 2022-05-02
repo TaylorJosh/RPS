@@ -1,17 +1,19 @@
-const hands = ['rock' , 'paper', 'scissors'];
+// changed variable mane (hands -> playerSelection)
+const playerSelection = ['rock' , 'paper', 'scissors'];
 
-function choice() {
-  return hands[parseInt(Math.random()*10)%3];
+// changed function name (choice -> getRandomChoice)
+function getRandomChoice() {
+  return playerSelection[parseInt(Math.random()*10)%3];
 }
 
-let player1 = {name: "Joe", choice: choice};
+let player1 = {name: "Joe", choice: getRandomChoice};
 
-let player2 = {name: "Jane", choice: choice};
+let player2 = {name: "Jane", choice: getRandomChoice};
 
 function playRound () {
 
-        let player1Choice = player1.choice();
-        let player2Choice = player2.choice();
+        let player1Choice = player1.getRandomChoice();
+        let player2Choice = player2.getRandomChoice();
 
         console.log(player1.name + ' chose ' + player1Choice);
         console.log(player2.name + ' chose ' + player2Choice);
